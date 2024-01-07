@@ -5,12 +5,14 @@
   width: 80%;
   margin: 50px auto;
 }
-
 .text-center {
   text-align: center;
 }
 .red{
   color: #F00;
+}
+.white{
+  color: #fff;
 }
 .description {
   font-family: 'Inter', sans-serif;
@@ -18,13 +20,30 @@
 header *{
   font-family: 'Merriweather', serif;
 }
+address{
+  font-style: normal;
+  display: inline;
+}
+.discount-section *{
+  font-family: 'Inter', sans-serif;
+}
+.btn-primary{
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding: 16px 32px;
+  border: none;
+  background-color: #F00;
+}
 /* header area style */
 
 .header-area {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.1) 100%) , url("../images/Rectangle 14.png");
+  background: linear-gradient(100deg , #070211 0%, rgba(7, 2 ,17 ,0.1) 100%) , url("../images/Rectangle 14.png");
   height: 450px;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -32,13 +51,11 @@ header *{
 .header-text{
   width: 460px;
 }
-.header-title{
-  color: #fff;
+.title{
   font-size: 32px;
   font-weight: 400;
 }
 .header-description {
-  color: #fff;
   border-radius: 16px;
   font-size: 60px;
   font-weight: 900;
@@ -46,9 +63,6 @@ header *{
 }
 
 /* Discount area style */
-.discount-section *{
-  font-family: 'Inter', sans-serif;
-}
 .discount-title{
   font-size: 75px;
   font-weight: 700;
@@ -58,9 +72,34 @@ header *{
   font-weight: 500;
 }
 .discount-img{
-  width: 600px;
+  width: 700px;
   margin: 0 auto;
 }
 .discount-area img{
   width: 100%;
+}
+/* midnight party style */
+.party{
+  background: linear-gradient(100deg , #070211 0%, rgba(7, 2 ,17 ,0.1) 100%) , url('../images/Vector (1).png');
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+  text-align: justify;
+  gap: 40px;
+  margin-top: 80px;
+}
+.btn{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+/* place style */
+.place{
+  background: linear-gradient(180deg, rgba(239, 2, 2, 0.255) 0%, rgba(224, 2, 2, 0.063) 100%);
+  padding: 80px 0px;
+  text-align: center;
+  margin-top: 80px;
 }
