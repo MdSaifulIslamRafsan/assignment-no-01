@@ -14,8 +14,17 @@
 .white{
   color: #fff;
 }
+.description-white{
+  color: rgba(255, 255, 255, 0.80);
+}
+.description-black{
+  color: rgba(7, 2, 17, 0.60);
+}
 .description {
   font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
 header *{
   font-family: 'Merriweather', serif;
@@ -97,7 +106,7 @@ address{
   border: none;
   cursor: pointer;
   font-size: 20px;
- 
+  font-family: 'Inter', sans-serif;
 }
 /* place style */
 .place{
@@ -107,8 +116,25 @@ address{
   margin-top: 80px;
 }
 .place-title{
-  font-size: 32px;
+  font-size: 22px;
   font-weight: 600;
-  line-height: 30px;
+  line-height: 20px;
   text-transform: capitalize;
 }
+.place-text{
+  margin-bottom: 50px;
+}
+/* OFFER style */
+.offer{
+  display: flex;
+  margin-top: 80px;
+  gap: 40px;
+  align-items: center;
+}
+.offer-center{
+  border: 10px solid #F00;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+/* WHAT IS FUNCTIONAL Style */
