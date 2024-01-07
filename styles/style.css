@@ -1,0 +1,66 @@
+/* common css style */
+
+.container {
+  max-width: 1600px;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+.red{
+  color: #F00;
+}
+.description {
+  font-family: 'Inter', sans-serif;
+}
+header *{
+  font-family: 'Merriweather', serif;
+}
+/* header area style */
+
+.header-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.1) 100%) , url("../images/Rectangle 14.png");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.header-text{
+  width: 460px;
+}
+.header-title{
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+}
+.header-description {
+  color: #fff;
+  border-radius: 16px;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 85px;
+}
+
+/* Discount area style */
+.discount-section *{
+  font-family: 'Inter', sans-serif;
+}
+.discount-title{
+  font-size: 75px;
+  font-weight: 700;
+}
+.discount-description{
+  font-size: 24px;
+  font-weight: 500;
+}
+.discount-img{
+  width: 600px;
+  margin: 0 auto;
+}
+.discount-area img{
+  width: 100%;
+}
