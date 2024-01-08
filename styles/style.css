@@ -25,6 +25,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  text-align: justify;
 }
 header *{
   font-family: 'Merriweather', serif;
@@ -73,13 +74,20 @@ address{
 }
 
 /* Discount area style */
-.discount-title{
+.discount-offer{
   font-size: 75px;
   font-weight: 700;
 }
-.discount-description{
-  font-size: 24px;
+.discount-title{
+  font-size: 20px;
   font-weight: 500;
+  font-family: 'Inter', sans-serif;
+}
+.discount-category{
+  color: #070211;
+  font-size: 33px;
+  font-weight: 700;
+  
 }
 .discount-img{
   width: 700px;
@@ -96,7 +104,6 @@ address{
   justify-content: space-between;
   align-items: center;
   padding: 40px 100px;
-  text-align: justify;
   gap: 40px;
   margin-top: 80px;
   background-size: cover;
@@ -136,5 +143,66 @@ address{
   padding: 20px;
   border-radius: 50%;
 }
-
-/* WHAT IS FUNCTIONAL Style */
+.offer-title{
+  color: #070211;
+  font-family: 'Merriweather', serif;
+  font-size: 33px;
+  font-weight: 900;
+}
+/*  FUNCTIONAL Style */
+.functional{
+  margin-top: 80px;
+}
+.functional-title{
+  font-family: 'Merriweather', serif;
+  font-size: 55px;
+  font-weight: 900;
+  color: #070211;
+}
+.functional-img{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  background: url('../images/Rectangle2.png') , url('../images/Rectangle1.png');
+  background-repeat: no-repeat;
+  background-position: bottom , top right;
+  padding: 35px 0px;
+  background-size: 100% , 350px;
+}
+.functional-img-left{
+  width: 55%;
+}
+.functional-img-right{
+  width: 45%;
+  display: flex;
+  justify-content: left;
+  
+}
+.functional-img-right img{
+  width: 190px;
+  height: 190px;
+  /* margin-left: -125px; */
+  margin-top: 25px;
+}
+.functional-img-left img {
+  width: 90%;
+}
+/* THE BEST GIFTS area */
+.gifts-area{
+  margin-top: 80px;
+}
+.gift-text{
+  width: 68%;
+  max-width: 896px;
+}
+.gift-img-card{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.gift-img-item{
+  width: 32%;
+}
+.gift-img-item img{
+  width: 100%;
+}
